@@ -1,0 +1,31 @@
+.left-col{
+/*	background-color: green;*/
+	float: left;
+	width: 60%;
+}
+
+.right-col{
+	/*background-color: purple;*/
+	float: right;
+	width: 40%;
+}
+
+.desktop-container{
+	max-width: 1280px;
+	/*background-color: yellow;*/
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+@media (max-width: 960px){
+	.left-col{
+		float: none;
+		width: 100%;
+	}
+
+	.right-col{
+		float: none;
+		width: 100%;
+	}
+}

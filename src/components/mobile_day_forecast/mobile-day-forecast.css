@@ -1,0 +1,60 @@
+.mobile-day-forecast{
+	width: 100%;
+	background-color: white;
+	transition: height 0.5s ease;
+	height: 50px;
+	overflow: hidden;
+	border-bottom: 1px solid #E8E9EB;
+	padding-top: 16px;
+}
+
+.expanded{
+	height: 127px;
+}
+
+.weather-icon{
+	height: 32px;
+	filter: hue-rotate(107deg) saturate(10000%) brightness(0.465);
+	margin-left: 5px;
+    margin-right: 5px;
+}
+
+.forecast-day-container{
+	width: calc(100% - 42px);
+	font-size: 12pt;
+    color: #003459;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.forecast-week-day{
+    font-weight: 800;
+}
+
+.forecast-day-high{
+	font-size: 14pt;
+}
+
+.forecast-day-weather {
+	color: #97A2AA;
+}
+
+.forecast-day-low{
+	font-size: 12pt;
+	position: relative;
+    right: 4px;
+}
+
+.expanded-info{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 42px;
+	color: #97A2AA;
+}
+
+.expanded-info div{
+	margin-bottom: 5px;
+}
+
+.expanded-info div:last-child{
+	margin-bottom: 0;
+}

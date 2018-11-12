@@ -1,0 +1,37 @@
+.desktop-day-banner{
+	background: linear-gradient(to right, #2E96FF, #28C2FF);
+	padding: 32px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+}
+
+.daybanner-left-col{
+	display: inline-block;
+}
+
+.daybanner-right-col{
+	display: inline-block;
+	margin-left: 32px;
+	flex-grow: 1;
+}
+
+.day-banner-city-desktop{
+	font-size: 26px;
+	line-height: initial;
+}
+
+.desktop-day-info>div{
+	display: inline-block;
+	margin-right: 32px;
+	margin-bottom: 8px;
+}
+
+.desktop-day-info>div:last-child{
+	margin-right: 0px;
+}
+
+.info-title{
+	font-weight: 800;
+	font-size: 16px;
+}

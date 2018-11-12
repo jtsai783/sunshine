@@ -1,0 +1,40 @@
+.mobile-day-banner{
+	width: 100%;
+	background: linear-gradient(to right, #2E96FF, #28C2FF);
+	padding-bottom: 8px;
+	padding-top: 8px;
+	box-sizing: border-box;
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.day-banner-city{
+	font-size: 18pt;
+	line-height: 18pt;
+	margin-bottom: 4px;
+}
+
+.day-banner-weather{
+	font-size: 14pt;
+	line-height: 14pt;
+	margin-bottom: 16px;
+}
+
+.day-banner-temp{
+	font-size: 56pt;
+	margin-bottom: 4px;
+}
+
+.day-banner-feeling{
+	font-size: 12pt;
+	line-height: 12pt;
+}
+
+.day-banner-weather-icon{
+	height: 24px;
+	filter: grayscale(100%) brightness(100000000%);
+	position: relative;
+    top: 4px;
+    margin-right: 10px;
+}

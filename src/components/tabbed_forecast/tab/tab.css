@@ -1,0 +1,63 @@
+.desktop-tabs{
+	border: 1px solid #003459;
+	height: calc(121px - 32px);
+	flex-grow: 1;
+	margin-left: 32px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	position: relative;
+	text-align: center;
+	flex-basis: 0;
+}
+
+.desktop-tabs .tab-day{
+	font-size: 12pt;
+	font-weight: 700;
+	color: #003459;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.desktop-tabs.selected .tab-day{
+	color: white;
+}
+
+.high-low{
+	color: #003459;
+}
+
+.desktop-tabs.selected .high-low{
+	color:white;
+}
+
+.high-low-separator{
+	width: 16px;
+}
+
+.tab-connector{
+	height: 8px;
+    width: calc(100% + 2px);
+    background-color: #003459;
+    position: absolute;
+    bottom: -9px;
+    left: -1px;
+    display: none;
+}
+
+.tab-icon>img{
+	height: 32px;
+	filter: hue-rotate(107deg) saturate(10000%) brightness(0.465);
+	margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.desktop-tabs.selected .tab-icon>img{
+	filter: grayscale(100%) brightness(100000000%);
+}
+
+.tab-connector.selected{
+	display: initial;
+}
+
+.desktop-tabs.selected{
+	background-color: #003459;
+}
