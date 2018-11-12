@@ -26,7 +26,7 @@ class App extends Component {
 
   getForecast = async () => {
 
-    const api_call = await fetch('http://api.openweathermap.org/data/2.5/forecast/daily?q=Atlanta&mode=json&cnt=5&units=imperial&apikey=3aa158b2f14a9f493a8c725f8133d704');
+    const api_call = await fetch('https://api.openweathermap.org/data/2.5/forecast/daily?q=Atlanta&mode=json&cnt=5&units=imperial&apikey=3aa158b2f14a9f493a8c725f8133d704');
     
     const response = await api_call.json();
 
@@ -37,7 +37,7 @@ class App extends Component {
 
   getDailyWeather = async () => {
 
-    const api_call = await fetch('http://api.openweathermap.org/data/2.5/weather?q=Atlanta&mode=json&cnt=5&units=imperial&apikey=3aa158b2f14a9f493a8c725f8133d704');
+    const api_call = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Atlanta&mode=json&cnt=5&units=imperial&apikey=3aa158b2f14a9f493a8c725f8133d704');
     
     const response = await api_call.json();
 
