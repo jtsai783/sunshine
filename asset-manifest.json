@@ -1,7 +1,7 @@
 {
   "main.css": "/sunshine/static/css/main.d45490d1.chunk.css",
-  "main.js": "/sunshine/static/js/main.166c2332.chunk.js",
-  "main.js.map": "/sunshine/static/js/main.166c2332.chunk.js.map",
+  "main.js": "/sunshine/static/js/main.534f3c05.chunk.js",
+  "main.js.map": "/sunshine/static/js/main.534f3c05.chunk.js.map",
   "static/js/1.0ceb25d4.chunk.js": "/sunshine/static/js/1.0ceb25d4.chunk.js",
   "static/js/1.0ceb25d4.chunk.js.map": "/sunshine/static/js/1.0ceb25d4.chunk.js.map",
   "runtime~main.js": "/sunshine/static/js/runtime~main.5ef5f466.js",
@@ -16,6 +16,6 @@
   "static/media/weather-rainy-2.svg": "/sunshine/static/media/weather-rainy-2.ce6541a5.svg",
   "static/css/main.d45490d1.chunk.css.map": "/sunshine/static/css/main.d45490d1.chunk.css.map",
   "index.html": "/sunshine/index.html",
-  "precache-manifest.1709cf732d14c45498abd38372d1699c.js": "/sunshine/precache-manifest.1709cf732d14c45498abd38372d1699c.js",
+  "precache-manifest.b2aa002057ee51303592344dab5c1502.js": "/sunshine/precache-manifest.b2aa002057ee51303592344dab5c1502.js",
   "service-worker.js": "/sunshine/service-worker.js"
 }

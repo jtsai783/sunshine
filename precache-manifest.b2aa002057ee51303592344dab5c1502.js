@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/sunshine/static/media/weather-sunny.8977b93d.svg"
   },
   {
-    "revision": "166c233267f23dfd10eb",
+    "revision": "534f3c055d1539569b69",
     "url": "/sunshine/static/css/main.d45490d1.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/sunshine/static/media/weather-rainy-2.ce6541a5.svg"
   },
   {
-    "revision": "166c233267f23dfd10eb",
-    "url": "/sunshine/static/js/main.166c2332.chunk.js"
+    "revision": "534f3c055d1539569b69",
+    "url": "/sunshine/static/js/main.534f3c05.chunk.js"
   },
   {
     "revision": "226abcba6cb6887972985405f125fcac",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/sunshine/static/media/weather-cloudy-night.7c5fe09e.svg"
   },
   {
-    "revision": "26ead8d80b145dd6d0b9c8e1468d91fc",
+    "revision": "57dc0a4e6d7e18e34038630526beef7e",
     "url": "/sunshine/index.html"
   }
 ];
